@@ -1,0 +1,45 @@
+# Recipe for Ruby on Rails collections
+---
+rh-ror50:
+  name: Ruby on Rails 5.0
+  requires: [rh-ruby23, rh-nodejs4, rh-mongodb32]
+  packages:
+    - rh-ror50:
+      install:
+        #- rh-ror50-build
+        #- scl-utils-build
+        - bash
+        - bzip2
+        - coreutils
+        - cpio
+        - diffutils
+        - findutils
+        - gawk
+        - gcc
+        - gcc-c++
+        - grep
+        - gzip
+        - info
+        - make
+        - patch
+        - redhat-release-server
+        - redhat-rpm-config
+        - rh-ror50-build
+        - rpm-build
+        - scl-utils-build
+        - sed
+        - shadow-utils
+        - tar
+        - unzip
+        - util-linux
+        - which
+        - xz
+        #- sqlite-devel
+
+# RSpec
+# Cucumber
+# Rails (needed)
+# Rails (optional)
+# MongoDB (Special request)
+
+

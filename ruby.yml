@@ -14,3 +14,15 @@ rh-ruby22:
     - rubygem-net-http-persistent
     - rubygem-thor
     - rubygem-bundler
+
+rh-ruby23:
+  name: Ruby 2.3
+  packages:
+    - rh-ruby23
+    - ruby
+    - rubygem-minitest
+    - rubygem-test-unit
+    - rubygem-bigdecimal
+    - rubygem-bundler
+    - rubygem-json
+    - rubygem-rake
