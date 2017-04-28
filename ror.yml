@@ -23,7 +23,7 @@ rh-ror50:
           need_bootstrap_set: 1
     - rubygem-diff-lcs:
         macros:
-          _with_bootstrap: 1
+          bootstrap: 1
     - rubygem-rspec-expectations:
         replaced_macros:
           need_bootstrap_set: 1
