@@ -32,12 +32,12 @@ rh-ror50:
         replaced_macros:
           need_bootstrap_set: 1
     - rubygem-nokogiri
-    - rubygem-flexmock
     - rubygem-metaclass
     - rubygem-builder
     - rubygem-introspection
     - rubygem-mocha
     - rubygem-rr
+    - rubygem-flexmock
     - rubygem-coderay
     - rubygem-thread_order
     - rubygem-gherkin
