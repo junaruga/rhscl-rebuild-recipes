@@ -26,6 +26,7 @@ rh-ror50:
           _with_bootstrap: 1
           # Temporary updae because of the RPM spec file issue.
           bootstrap: 1
+          _with_bootstrap: 1
     - rubygem-rspec-expectations:
         replaced_macros:
           need_bootstrap_set: 1
@@ -41,6 +42,7 @@ rh-ror50:
     - rubygem-introspection
     - rubygem-mocha
     - rubygem-rr
+    - rubygem-flexmock
     - rubygem-coderay
     - rubygem-thread_order
     - rubygem-gherkin
